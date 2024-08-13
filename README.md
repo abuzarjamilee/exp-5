@@ -30,7 +30,7 @@ Selects one of many code blocks to execute based on a variable's value.
 Useful for multiple cases of a single variable.
 Syntax: switch(variable) { case value1: code1; break; case value2: code2; break; ... default: code; }
 
-# CODE 
+# CODE A
 ```
 //experiment 5
 #include <iostream>
@@ -61,6 +61,61 @@ int main() {
 }
 ```
 # OUTPUT
+
+![image](https://github.com/user-attachments/assets/7ee0401d-4696-42de-b518-8d7c13169e8d)
+# CODE B
+//Abuzar 
+//23070123158
+#include<iostream>
+using namespace std;
+int main()
+{
+
+    int num1,num2;
+    int sum,sub,prod;
+    char operation;
+
+    cout<<"Enter the first number"<<endl;
+    cin>>num1;
+    cout<<"Enter the second number"<<endl;
+    cin>>num2;
+    cout<<"Enter the OPERATION you want to perform"<<endl;
+    cin>>operation;
+
+    sum=num1+num2;
+    sub=num1-num2;
+    prod=num1*num2;
+    
+    switch (operation){
+
+        case '+':
+        cout<<"Addition for your entered value is:"<<sum<<endl;
+        break;
+
+        case '-':
+        cout<<"Subtraction for your entered value is:"<<sub<<endl;
+        break;
+
+        case '*':
+        cout<<"Multiplication for your entered value is:"<<prod<<endl;
+        break;
+         
+         }
+
+         return 0;
+
+    }
+  
+
+    
+
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/cb4c45f6-e0d1-4b2f-8fa8-ad6ba9a7fb02)
+
 
 
 # CONCLUSION
